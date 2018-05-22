@@ -1,0 +1,44 @@
+class PrintSubjects
+{
+    public static void main(String arg[])
+    {
+        char branch = ; 
+        int year = 2;
+        switch( year )
+        {
+            case 1:
+		{
+                   System.out.println();
+                   break;
+		}
+            case 2:
+                switch( branch ) 
+                {
+                    case :
+                        System.out.println();
+                        break;
+                    case :
+                        System.out.println();
+                        break;
+                    case :
+                        System.out.println();
+                        break;
+                }
+                break;
+            case 3:
+                switch( branch ) 
+                {
+                    case :
+                        System.out.println();
+                        break;
+                    case :
+                        System.out.println();
+                        break;
+                    case :
+                        System.out.println();
+                        break;
+                }
+                break;
+        }
+    }
+}

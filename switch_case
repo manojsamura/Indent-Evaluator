@@ -1,0 +1,15 @@
+int main()
+{
+	int a;
+	switch(a)
+	{
+		case a:
+			print()
+			print()
+			if()
+			{
+				print()
+			}
+	}
+	return 0;
+}

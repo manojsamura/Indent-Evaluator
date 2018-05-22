@@ -1,0 +1,38 @@
+#######################################################################################################
+
+						INDENT CHECKER
+
+########################################################################################################
+
+This module is a part of the automated programming assignment assessment module.
+This module checks the formating of the program and evaluates the code based on the structure of
+the code.
+
+To run the module use the following command:
+	python run_module.py <filename>
+
+You can have multiple filenames as arguments.
+
+The evaluation is done by the module after certain code cleaning like removing the comments,
+quotation, extra lines etc.
+
+This evaluation is based on eucildean distance of the ideal code and the code given to the system.
+
+The codes is evaluateed for the different blocks in the code.
+Each block is checked and evaluated based on the criteria mentioned above, and the final value is
+aggregated over all blocks.
+
+The module provides two output files.
+
+The first output of the code is in the ic_<filename> file.
+-> This file will have the evaluation details of the code stating the grades of the code.
+
+The second output of the code is in the <filename>_indent_feedback.
+-> This file will have the output of the evaluated code, which can be used by the students to verify
+the errors in their code so that they can improve the next time.
+
+
+This module can be used to check the indentation of the languages like c,c++,java etc.
+
+There is an example folder which has some files which can be used to check the module and help in 
+exploring about the module.
